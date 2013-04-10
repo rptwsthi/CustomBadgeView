@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C633E35316D699A200E36D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633E35216D699A200E36D14 /* UIKit.framework */; };
+		C633E35516D699A200E36D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633E35416D699A200E36D14 /* Foundation.framework */; };
+		C633E35716D699A200E36D14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633E35616D699A200E36D14 /* CoreGraphics.framework */; };
+		C633E35D16D699A200E36D14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C633E35B16D699A200E36D14 /* InfoPlist.strings */; };
+		C633E35F16D699A200E36D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C633E35E16D699A200E36D14 /* main.m */; };
+		C633E36316D699A200E36D14 /* IGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C633E36216D699A200E36D14 /* IGAppDelegate.m */; };
+		C633E36516D699A200E36D14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C633E36416D699A200E36D14 /* Default.png */; };
+		C633E36716D699A200E36D14 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C633E36616D699A200E36D14 /* Default@2x.png */; };
+		C633E36916D699A200E36D14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C633E36816D699A200E36D14 /* Default-568h@2x.png */; };
+		C633E36C16D699A200E36D14 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C633E36A16D699A200E36D14 /* MainStoryboard.storyboard */; };
+		C633E36F16D699A200E36D14 /* IGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C633E36E16D699A200E36D14 /* IGViewController.m */; };
+		C633E37716D699A300E36D14 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633E37616D699A300E36D14 /* SenTestingKit.framework */; };
+		C633E37816D699A300E36D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633E35216D699A200E36D14 /* UIKit.framework */; };
+		C633E37916D699A300E36D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633E35416D699A200E36D14 /* Foundation.framework */; };
+		C633E38116D699A300E36D14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C633E37F16D699A300E36D14 /* InfoPlist.strings */; };
+		C633E38416D699A300E36D14 /* AdjustableBubbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C633E38316D699A300E36D14 /* AdjustableBubbleTests.m */; };
+		C633E38F16D69AD100E36D14 /* AdjustableBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = C633E38E16D69AD100E36D14 /* AdjustableBubble.m */; };
+		C633E39116D69BB500E36D14 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633E39016D69BB500E36D14 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C633E37A16D699A300E36D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C633E34516D699A200E36D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C633E34D16D699A200E36D14;
+			remoteInfo = AdjustableBubble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C633E34E16D699A200E36D14 /* AdjustableBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdjustableBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C633E35216D699A200E36D14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C633E35416D699A200E36D14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C633E35616D699A200E36D14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C633E35A16D699A200E36D14 /* AdjustableBubble-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdjustableBubble-Info.plist"; sourceTree = "<group>"; };
+		C633E35C16D699A200E36D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C633E35E16D699A200E36D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C633E36016D699A200E36D14 /* AdjustableBubble-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdjustableBubble-Prefix.pch"; sourceTree = "<group>"; };
+		C633E36116D699A200E36D14 /* IGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGAppDelegate.h; sourceTree = "<group>"; };
+		C633E36216D699A200E36D14 /* IGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGAppDelegate.m; sourceTree = "<group>"; };
+		C633E36416D699A200E36D14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C633E36616D699A200E36D14 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C633E36816D699A200E36D14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C633E36B16D699A200E36D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C633E36D16D699A200E36D14 /* IGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGViewController.h; sourceTree = "<group>"; };
+		C633E36E16D699A200E36D14 /* IGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGViewController.m; sourceTree = "<group>"; };
+		C633E37516D699A300E36D14 /* AdjustableBubbleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustableBubbleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C633E37616D699A300E36D14 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C633E37E16D699A300E36D14 /* AdjustableBubbleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdjustableBubbleTests-Info.plist"; sourceTree = "<group>"; };
+		C633E38016D699A300E36D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C633E38216D699A300E36D14 /* AdjustableBubbleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdjustableBubbleTests.h; sourceTree = "<group>"; };
+		C633E38316D699A300E36D14 /* AdjustableBubbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustableBubbleTests.m; sourceTree = "<group>"; };
+		C633E38D16D69AD100E36D14 /* AdjustableBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustableBubble.h; sourceTree = "<group>"; };
+		C633E38E16D69AD100E36D14 /* AdjustableBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustableBubble.m; sourceTree = "<group>"; };
+		C633E39016D69BB500E36D14 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C633E34B16D699A200E36D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633E39116D69BB500E36D14 /* QuartzCore.framework in Frameworks */,
+				C633E35316D699A200E36D14 /* UIKit.framework in Frameworks */,
+				C633E35516D699A200E36D14 /* Foundation.framework in Frameworks */,
+				C633E35716D699A200E36D14 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C633E37116D699A300E36D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633E37716D699A300E36D14 /* SenTestingKit.framework in Frameworks */,
+				C633E37816D699A300E36D14 /* UIKit.framework in Frameworks */,
+				C633E37916D699A300E36D14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C633E34316D699A200E36D14 = {
+			isa = PBXGroup;
+			children = (
+				C633E39016D69BB500E36D14 /* QuartzCore.framework */,
+				C633E35816D699A200E36D14 /* AdjustableBubble */,
+				C633E37C16D699A300E36D14 /* AdjustableBubbleTests */,
+				C633E35116D699A200E36D14 /* Frameworks */,
+				C633E34F16D699A200E36D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C633E34F16D699A200E36D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C633E34E16D699A200E36D14 /* AdjustableBubble.app */,
+				C633E37516D699A300E36D14 /* AdjustableBubbleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C633E35116D699A200E36D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C633E35216D699A200E36D14 /* UIKit.framework */,
+				C633E35416D699A200E36D14 /* Foundation.framework */,
+				C633E35616D699A200E36D14 /* CoreGraphics.framework */,
+				C633E37616D699A300E36D14 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C633E35816D699A200E36D14 /* AdjustableBubble */ = {
+			isa = PBXGroup;
+			children = (
+				C633E36116D699A200E36D14 /* IGAppDelegate.h */,
+				C633E36216D699A200E36D14 /* IGAppDelegate.m */,
+				C633E36A16D699A200E36D14 /* MainStoryboard.storyboard */,
+				C633E36D16D699A200E36D14 /* IGViewController.h */,
+				C633E36E16D699A200E36D14 /* IGViewController.m */,
+				C633E38D16D69AD100E36D14 /* AdjustableBubble.h */,
+				C633E38E16D69AD100E36D14 /* AdjustableBubble.m */,
+				C633E35916D699A200E36D14 /* Supporting Files */,
+			);
+			path = AdjustableBubble;
+			sourceTree = "<group>";
+		};
+		C633E35916D699A200E36D14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C633E35A16D699A200E36D14 /* AdjustableBubble-Info.plist */,
+				C633E35B16D699A200E36D14 /* InfoPlist.strings */,
+				C633E35E16D699A200E36D14 /* main.m */,
+				C633E36016D699A200E36D14 /* AdjustableBubble-Prefix.pch */,
+				C633E36416D699A200E36D14 /* Default.png */,
+				C633E36616D699A200E36D14 /* Default@2x.png */,
+				C633E36816D699A200E36D14 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C633E37C16D699A300E36D14 /* AdjustableBubbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C633E38216D699A300E36D14 /* AdjustableBubbleTests.h */,
+				C633E38316D699A300E36D14 /* AdjustableBubbleTests.m */,
+				C633E37D16D699A300E36D14 /* Supporting Files */,
+			);
+			path = AdjustableBubbleTests;
+			sourceTree = "<group>";
+		};
+		C633E37D16D699A300E36D14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C633E37E16D699A300E36D14 /* AdjustableBubbleTests-Info.plist */,
+				C633E37F16D699A300E36D14 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C633E34D16D699A200E36D14 /* AdjustableBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C633E38716D699A300E36D14 /* Build configuration list for PBXNativeTarget "AdjustableBubble" */;
+			buildPhases = (
+				C633E34A16D699A200E36D14 /* Sources */,
+				C633E34B16D699A200E36D14 /* Frameworks */,
+				C633E34C16D699A200E36D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdjustableBubble;
+			productName = AdjustableBubble;
+			productReference = C633E34E16D699A200E36D14 /* AdjustableBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C633E37416D699A300E36D14 /* AdjustableBubbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C633E38A16D699A300E36D14 /* Build configuration list for PBXNativeTarget "AdjustableBubbleTests" */;
+			buildPhases = (
+				C633E37016D699A300E36D14 /* Sources */,
+				C633E37116D699A300E36D14 /* Frameworks */,
+				C633E37216D699A300E36D14 /* Resources */,
+				C633E37316D699A300E36D14 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C633E37B16D699A300E36D14 /* PBXTargetDependency */,
+			);
+			name = AdjustableBubbleTests;
+			productName = AdjustableBubbleTests;
+			productReference = C633E37516D699A300E36D14 /* AdjustableBubbleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C633E34516D699A200E36D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Arpit Awasthi";
+			};
+			buildConfigurationList = C633E34816D699A200E36D14 /* Build configuration list for PBXProject "AdjustableBubble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C633E34316D699A200E36D14;
+			productRefGroup = C633E34F16D699A200E36D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C633E34D16D699A200E36D14 /* AdjustableBubble */,
+				C633E37416D699A300E36D14 /* AdjustableBubbleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C633E34C16D699A200E36D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633E35D16D699A200E36D14 /* InfoPlist.strings in Resources */,
+				C633E36516D699A200E36D14 /* Default.png in Resources */,
+				C633E36716D699A200E36D14 /* Default@2x.png in Resources */,
+				C633E36916D699A200E36D14 /* Default-568h@2x.png in Resources */,
+				C633E36C16D699A200E36D14 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C633E37216D699A300E36D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633E38116D699A300E36D14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C633E37316D699A300E36D14 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C633E34A16D699A200E36D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633E35F16D699A200E36D14 /* main.m in Sources */,
+				C633E36316D699A200E36D14 /* IGAppDelegate.m in Sources */,
+				C633E36F16D699A200E36D14 /* IGViewController.m in Sources */,
+				C633E38F16D69AD100E36D14 /* AdjustableBubble.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C633E37016D699A300E36D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633E38416D699A300E36D14 /* AdjustableBubbleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C633E37B16D699A300E36D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C633E34D16D699A200E36D14 /* AdjustableBubble */;
+			targetProxy = C633E37A16D699A300E36D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C633E35B16D699A200E36D14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C633E35C16D699A200E36D14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C633E36A16D699A200E36D14 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C633E36B16D699A200E36D14 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C633E37F16D699A300E36D14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C633E38016D699A300E36D14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C633E38516D699A300E36D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C633E38616D699A300E36D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C633E38816D699A300E36D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdjustableBubble/AdjustableBubble-Prefix.pch";
+				INFOPLIST_FILE = "AdjustableBubble/AdjustableBubble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C633E38916D699A300E36D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdjustableBubble/AdjustableBubble-Prefix.pch";
+				INFOPLIST_FILE = "AdjustableBubble/AdjustableBubble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C633E38B16D699A300E36D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AdjustableBubble.app/AdjustableBubble";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdjustableBubble/AdjustableBubble-Prefix.pch";
+				INFOPLIST_FILE = "AdjustableBubbleTests/AdjustableBubbleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C633E38C16D699A300E36D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AdjustableBubble.app/AdjustableBubble";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdjustableBubble/AdjustableBubble-Prefix.pch";
+				INFOPLIST_FILE = "AdjustableBubbleTests/AdjustableBubbleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C633E34816D699A200E36D14 /* Build configuration list for PBXProject "AdjustableBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C633E38516D699A300E36D14 /* Debug */,
+				C633E38616D699A300E36D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C633E38716D699A300E36D14 /* Build configuration list for PBXNativeTarget "AdjustableBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C633E38816D699A300E36D14 /* Debug */,
+				C633E38916D699A300E36D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C633E38A16D699A300E36D14 /* Build configuration list for PBXNativeTarget "AdjustableBubbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C633E38B16D699A300E36D14 /* Debug */,
+				C633E38C16D699A300E36D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C633E34516D699A200E36D14 /* Project object */;
+}
